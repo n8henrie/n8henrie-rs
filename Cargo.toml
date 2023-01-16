@@ -1,0 +1,16 @@
+[package]
+name = "n8henrie"
+version = "0.1.5"
+edition = "2021"
+authors = ["Nathan Henrie <nate@n8henrie.com>"]
+description = "reserved"
+license = "MIT"
+
+[dependencies]
+
+[features]
+foo = []
+
+[package.metadata.docs.rs]
+features = ["foo"]
+rustdoc-args = ["--cfg", "docsrs"]
