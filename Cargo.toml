@@ -1,6 +1,6 @@
 [package]
 name = "n8henrie"
-version = "0.1.5"
+version = "0.1.6"
 edition = "2021"
 authors = ["Nathan Henrie <nate@n8henrie.com>"]
 description = "reserved"
