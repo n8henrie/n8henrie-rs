@@ -26,7 +26,7 @@ jobs:
             --all-features
       - name: Redirect index page
         run: |
-          echo '<meta http-equiv="refresh" content="0; url={{ project-name }}">' > target/doc/index.html
+          echo '<meta http-equiv="refresh" content="0; url=n8henrie">' > target/doc/index.html
       - name: Upload artifact to Pages
         uses: actions/upload-pages-artifact@v1
         with:
